@@ -1,0 +1,2 @@
+# HelpUsThrive
+UNCA Senior Project
