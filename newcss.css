@@ -1,0 +1,414 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #B0C4DE;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: darkblue;
+  
+}
+
+.headerlogin {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+.formlogin, .contentlogin {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-grouplogin {
+  margin: 10px 0px 10px 0px;
+}
+.input-grouplogin label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-grouplogin input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+  }
+  
+ 
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+
+.btn1{
+    background: rgba(255, 0, 0, 0.6);
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+    position: center;
+}
+
+th, td {
+text-align: center;
+}
+
+fieldset {
+    display:block;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 7px groove;
+    border-radius: 5px;
+    border-color: mediumseagreen;
+    padding: 20px;
+}
+
+h1{
+    color:darkblue;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    
+}
+
+h2{
+    color:darkblue;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    }
+
+p{
+    color:darkblue;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    }
+
+h3{
+    color: darkblue;
+    text-align: left;
+    font-size:  2em;
+    font-weight: bold;
+    }
+    
+input[type=text], input[type=date], select {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.div {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input1 {
+    width: 500px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+        
+    }
+    
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.button {
+    background-color:forestgreen;
+    border-style: double;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.button1 {
+    background-color:forestgreen;
+    border-style: double;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 250px;
+    border-radius: 12px;
+}
+
+.button2{
+    background-color: rgba(255, 0, 0, 0.6);
+    font-size:  16px;
+    height: 32px;
+    text-align: center;
+    width: 250px;
+   }
+
+.button3{
+    background-color: rgba(255, 0, 0, 0.6);
+}
+.center{
+    text-align: center;
+}
+.containerRadio {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.containerRadio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmarkRadio {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containerRadio:hover input ~ .checkmarkRadio {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containerRadio input:checked ~ .checkmarkRadio {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmarkRadio:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containerRadio input:checked ~ .checkmarkRadio:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containerRadio .checkmarkRadio:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
+//
+
+
+/* Style the header */
+.header1 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* to be used at top of every page */
+.logout {
+    background-color: rgba(106, 90, 205);
+    border: black;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 150px;    
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/* to be used at top of every page */
+.logoutbutton {
+    background-color: rgba(255, 0, 0, 0.6);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;    
+    cursor: pointer;
+    border-radius: 8px;
+    width: 50px;
+    }
+    
+/* questionnaire and table formatting for add Family, add Room. */
+.item1 { grid-area: header; }
+.item2 { grid-area: questionnaire; }
+.item3 { grid-area: table; }
+.item4 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'questionnaire questionnaire questionnaire table table table'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #B0C4DE;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 120%;
+  color: darkblue;
+  font-family: "Comis Sans MS", cursive, sans-serif;
+}
