@@ -1,0 +1,517 @@
+[13-Apr-2018 12:59:14 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[13-Apr-2018 12:59:21 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertHouse.php on line 45
+[13-Apr-2018 12:59:22 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 72
+[13-Apr-2018 13:51:39 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[13-Apr-2018 13:52:04 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertHouse.php on line 45
+[13-Apr-2018 13:52:05 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 72
+[13-Apr-2018 13:52:41 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[13-Apr-2018 13:52:46 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 72
+[13-Apr-2018 13:52:54 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[13-Apr-2018 13:53:00 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 72
+[13-Apr-2018 18:30:00 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[13-Apr-2018 18:35:14 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertHouse.php on line 45
+[13-Apr-2018 18:35:14 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 72
+[13-Apr-2018 21:16:43 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[13-Apr-2018 21:17:01 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertHouse.php on line 45
+[13-Apr-2018 21:17:01 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 75
+[14-Apr-2018 09:37:41 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertHouse.php on line 45
+[14-Apr-2018 09:37:42 CST6CDT] PHP Parse error:  syntax error, unexpected '$houseName' (T_VARIABLE) in /home/helpusth/public_html/scripts/addFamily.php on line 57
+[14-Apr-2018 09:42:03 CST6CDT] PHP Parse error:  syntax error, unexpected '$houseName' (T_VARIABLE) in /home/helpusth/public_html/scripts/addFamily.php on line 57
+[14-Apr-2018 09:43:57 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 09:44:23 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 09:52:01 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 09:52:45 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 09:53:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 09:53:45 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 09:53:45 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:01:21 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:01:31 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:01:37 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:01:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:02:02 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:02:04 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:02:04 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:03:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:03:58 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:03:59 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:23:34 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:23:35 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:24:05 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:24:25 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:24:25 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:24:54 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:27:31 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:27:40 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:27:40 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:27:51 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:29:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:29:40 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:29:40 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:29:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 10:30:14 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 10:30:14 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 11:05:33 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:06:01 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:06:02 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:06:51 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:06:51 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:07:02 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:07:02 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:07:14 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:07:14 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:07:54 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:07:54 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:08:24 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:08:24 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:08:37 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:08:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:08:48 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:08:48 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:09:03 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:09:03 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:09:33 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:09:34 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:10:06 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 11:10:06 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[14-Apr-2018 11:11:07 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[14-Apr-2018 11:11:07 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaireComplete.php on line 99
+[14-Apr-2018 13:22:20 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaireComplete.php on line 99
+[14-Apr-2018 13:22:23 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaireComplete.php on line 99
+[14-Apr-2018 13:24:27 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 13:24:56 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 13:24:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 13:35:08 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 13:35:42 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 13:35:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 13:36:47 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 52
+[14-Apr-2018 13:36:47 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[14-Apr-2018 13:41:09 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[14-Apr-2018 13:41:09 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[14-Apr-2018 13:47:36 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:02:42 CST6CDT] PHP Notice:  Undefined index: roomName in /home/helpusth/public_html/scripts/questionnaire.php on line 74
+[14-Apr-2018 14:02:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 78
+[14-Apr-2018 14:42:38 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[14-Apr-2018 14:45:49 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[14-Apr-2018 14:47:07 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 14:47:29 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[14-Apr-2018 14:47:29 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 14:47:41 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 14:50:22 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:10:01 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:10:03 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:10:51 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:10:53 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:10:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:11:46 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:13:08 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:14:03 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:14:32 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 15:14:35 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 16:54:49 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:11 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:18 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:21 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:21 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:57 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:04:58 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:05:16 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:05:17 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:05:24 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:08:11 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:08:13 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:08:36 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:08:38 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:09:22 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:09:23 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:10:12 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:10:12 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:10:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:11:27 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:11:47 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 17:29:33 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:00:54 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:08:39 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:14:15 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:14:19 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:17:23 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:17:25 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:17:30 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:42:08 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:43:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 18:43:50 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:45:28 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:54:20 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:54:22 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:59:15 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 18:59:16 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:10:43 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:12:39 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:13:11 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:13:41 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:13:50 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:14:55 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:15:45 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:16:17 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 19:16:19 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 22:46:38 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:47:34 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:47:36 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:48:32 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:48:33 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:50:02 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:50:03 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 78
+[14-Apr-2018 22:55:52 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:00:03 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:06:39 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:21:55 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[14-Apr-2018 23:21:58 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:22:15 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: queryDog in /home/helpusth/public_html/scripts/insertExtraChores.php on line 68
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: queryCat in /home/helpusth/public_html/scripts/insertExtraChores.php on line 70
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: queryRabbit in /home/helpusth/public_html/scripts/insertExtraChores.php on line 72
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: queryFish in /home/helpusth/public_html/scripts/insertExtraChores.php on line 74
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: querySeasonally in /home/helpusth/public_html/scripts/insertExtraChores.php on line 76
+[14-Apr-2018 23:22:21 CST6CDT] PHP Notice:  Undefined variable: queryOutside in /home/helpusth/public_html/scripts/insertExtraChores.php on line 78
+[14-Apr-2018 23:22:21 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[14-Apr-2018 23:22:44 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:22:49 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:22:59 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:24:10 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:24:30 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:24:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[14-Apr-2018 23:32:15 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[14-Apr-2018 23:33:02 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[15-Apr-2018 19:11:42 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[15-Apr-2018 19:21:01 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[15-Apr-2018 19:21:24 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:12:57 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[16-Apr-2018 07:13:09 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 07:34:04 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 07:34:21 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 07:34:34 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 07:45:02 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:45:02 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[16-Apr-2018 07:45:38 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[16-Apr-2018 07:45:41 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[16-Apr-2018 07:45:45 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addRoom.php on line 79
+[16-Apr-2018 07:48:36 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:49:23 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:49:32 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:49:44 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:49:56 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:51:35 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:51:47 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 07:52:06 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 07:52:06 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[16-Apr-2018 07:52:34 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 08:11:41 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 08:16:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 09:34:29 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 09:36:37 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 09:37:04 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 09:38:27 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 09:42:04 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 20:26:49 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[16-Apr-2018 20:27:05 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:45:37 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:45:49 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:45:53 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:46:44 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:47:04 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 20:57:05 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:57:19 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:57:29 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:57:38 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:57:46 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:57:57 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:58:06 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:58:25 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:58:33 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:58:50 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 20:59:19 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 20:59:19 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[16-Apr-2018 21:00:24 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[16-Apr-2018 22:03:30 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertUser.php on line 78
+[16-Apr-2018 22:03:42 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 22:03:52 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 22:04:12 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 22:04:28 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertFamily.php on line 60
+[16-Apr-2018 22:04:46 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:04:53 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:04:58 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:05:05 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:05:23 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:05:29 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:05:41 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:05:49 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:06:03 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:06:22 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertRoom.php on line 54
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 32
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 37
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 43
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 49
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 54
+[16-Apr-2018 22:07:05 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 59
+[16-Apr-2018 22:07:05 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 84
+[16-Apr-2018 22:07:12 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 09:19:44 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 09:20:13 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 18:15:28 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/addFamily.php on line 74
+[17-Apr-2018 18:39:39 CST6CDT] PHP Parse error:  syntax error, unexpected 'grid' (T_STRING), expecting ',' or ';' in /home/helpusth/public_html/scripts/questionnaireComplete.php on line 74
+[17-Apr-2018 18:41:44 CST6CDT] PHP Parse error:  syntax error, unexpected 'item3' (T_STRING), expecting ',' or ';' in /home/helpusth/public_html/scripts/questionnaireComplete.php on line 113
+[17-Apr-2018 18:42:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 18:45:39 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 18:51:01 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 18:53:18 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 18:53:59 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[17-Apr-2018 22:51:26 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 38
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 38
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 53
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 53
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 68
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 68
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 82
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 82
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: db in /home/helpusth/public_html/scripts/insertExtraChores.php on line 96
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_real_escape_string() expects parameter 1 to be mysqli, null given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 96
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: queryDog in /home/helpusth/public_html/scripts/insertExtraChores.php on line 114
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: queryCat in /home/helpusth/public_html/scripts/insertExtraChores.php on line 116
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: queryRabbit in /home/helpusth/public_html/scripts/insertExtraChores.php on line 118
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: queryFish in /home/helpusth/public_html/scripts/insertExtraChores.php on line 120
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: querySeasonally in /home/helpusth/public_html/scripts/insertExtraChores.php on line 122
+[18-Apr-2018 17:26:11 CST6CDT] PHP Notice:  Undefined variable: queryOutside in /home/helpusth/public_html/scripts/insertExtraChores.php on line 124
+[18-Apr-2018 17:26:11 CST6CDT] PHP Warning:  mysqli_close() expects exactly 1 parameter, 0 given in /home/helpusth/public_html/scripts/insertExtraChores.php on line 130
+[18-Apr-2018 17:32:46 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 68
+[18-Apr-2018 17:48:50 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 65
+[18-Apr-2018 17:48:56 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 65
+[18-Apr-2018 17:59:28 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 65
+[18-Apr-2018 18:14:10 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/helpusth/public_html/scripts/questionnaire.php on line 69
+[18-Apr-2018 18:30:47 CST6CDT] PHP Notice:  Array to string conversion in /home/helpusth/public_html/scripts/questionnaire.php on line 79
+[18-Apr-2018 18:34:58 CST6CDT] PHP Notice:  Array to string conversion in /home/helpusth/public_html/scripts/questionnaire.php on line 77
+[18-Apr-2018 18:36:26 CST6CDT] PHP Parse error:  syntax error, unexpected end of file in /home/helpusth/public_html/scripts/questionnaire.php on line 101
+[18-Apr-2018 18:37:23 CST6CDT] PHP Notice:  Array to string conversion in /home/helpusth/public_html/scripts/questionnaire.php on line 77
+[18-Apr-2018 19:06:11 CST6CDT] PHP Notice:  Undefined variable: result2 in /home/helpusth/public_html/scripts/questionnaire.php on line 66
+[18-Apr-2018 19:06:11 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/helpusth/public_html/scripts/questionnaire.php on line 66
+[18-Apr-2018 19:06:11 CST6CDT] PHP Notice:  Undefined variable: result3 in /home/helpusth/public_html/scripts/questionnaire.php on line 85
+[18-Apr-2018 19:06:11 CST6CDT] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/helpusth/public_html/scripts/questionnaire.php on line 85

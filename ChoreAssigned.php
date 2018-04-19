@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -7,16 +17,19 @@ session_start();
         <title>Chores Assigned </title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/newcss.css">
+        <link rel="stylesheet" href="../css/newcss.css">
     </head>
     <body>
+    	<div class="logout">
+    	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
+    	<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>
         <fieldset>
-            <form action="scripts/choresCompleted.php" method="post">
+            <form action="choresCompleted.php" method="post">
          <?php
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
-        include("scripts/dbinfo.inc.php");
-        $con = mysqli_connect("localhost", $username, $password, $database)
+        include("dbinfo.inc.php");
+        $con = mysqli_connect($host, $username, $password, $database)
                 or die("Unable to select database");
         $houseName = $_SESSION["houseName"];
         $queryPersonalDaily = "SELECT * FROM dailypersonalchore WHERE houseName = '$houseName'";
@@ -148,7 +161,7 @@ session_start();
             </form>
         </fieldset>
         <fieldset>
-        <a class ="button button2" href ="welcome.html">Welcome Page</a>
+            <a class ="button button2" href ="../index.html">Welcome Page</a>
         <a class ="button button2" href ="addFamily.php">Add Family Member</a>
         <a class ="button button2" href="addRoom.php">Add a Room</a>
         <a class ="button button2" href="choreRewardReview.php">Reward Points</a>

@@ -1,7 +1,17 @@
 <!--Need to adjust for chores completed.-->
 
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,6 +22,9 @@ session_start();
         <link rel="stylesheet" href="../css/newcss.css">
     </head>
     <body>
+    	<div class="logout">
+    	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
+    	<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>
         <?php
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
@@ -74,7 +87,7 @@ session_start();
         }
 
         mysqli_close();
-        header('Location: http://localhost:8888/HelpMeThrive/questionnaireComplete.php');
+        header('Location: questionnaireComplete.php');
         ?> 
     </body>
 </html>

@@ -3,19 +3,19 @@
 
   if (!isset($_SESSION['houseName'])) {
   	$_SESSION['msg'] = "You must log in first";
-  	header('location: /HelpMeThrive/login.php');
+  	header('location: login.php');
   }
   if (isset($_GET['logout'])) {
   	session_destroy();
   	unset($_SESSION['houseName']);
-  	header("location: /HelpMeThrive/login.php");
+  	header("location: login.php");
   }
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Home</title>
-        <link rel="stylesheet" type="text/css" href="/HelpMeThrive/css/style.css">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
     <fieldset>
@@ -38,13 +38,13 @@
     <!-- logged in user information -->
     <?php  if (isset($_SESSION['houseName'])) : ?>
     <h3>Welcome <strong><?php echo $_SESSION['houseName']; ?></strong></h3><br>
-    	<a class ="btn" style="text-decoration: none; background-color: red" href="/HelpMeThrive/index.php?logout='1'">logout</a>
-        <a class= "btn" style="text-decoration: none" href="addHouse.html">Get Started!</a>
+    	<a class ="btn" style="text-decoration: none; background-color: red" href="index.php?logout='1'">logout</a>
+        <a class= "btn" style="text-decoration: none" href="addFamily.php">Get Started!</a>
         <!--<a class= "btn" href="ChoreAssigned.php">Current Chores</a>
         <a class= "btn" href="choreHistory.php.php">Chore History</a>
         <a class= "btn" href="rewardPoints.php">Reward Points</a>-->
         <!--<p> <a class ="button button2" href="addChores.php">Add Customized Chores</a></p>-->
-        <a class="btn"style="text-decoration: none" href="choresToComplete.html">Chores to Complete</a>
+        <a class="btn" style="text-decoration: none" href="choresToComplete.php">Chores to Complete</a>
         <!--<p> <a class ="btn" href="choreHistory.html">Chore History</a></p>-->
     <?php endif ?>
 </div>

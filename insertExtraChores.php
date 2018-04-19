@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,40 +25,86 @@ session_start();
         ini_set('display_errors', 1);
         include("dbinfo.inc.php");
         
-        $con = mysqli_connect("localhost", $username, $password, $database)
+        $con = mysqli_connect($host, $username, $password, $database)
                 or die("Unable to select database");
         $houseName = $_SESSION["houseName"];
         if (isset($_REQUEST['Seasonally']) && $_REQUEST['Seasonally'] == 'Seasonally') {
             $Seasonally = mysqli_real_escape_string($db, $_REQUEST["Seasonally"]);
-            $querySeasonally = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreFrequency='Seasonally' AND house.houseName= '$houseName'";
+            $querySeasonally = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreFrequency='Seasonally' 
+            AND house.houseName='$houseName'";
             mysqli_query($con, $querySeasonally);
         }
         if (isset($_REQUEST['Outside']) && $_REQUEST['Outside'] == 'Outside') {
             $Outside = mysqli_real_escape_string($db, $_REQUEST["Outside"]);
-            $queryOutside = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreRoom='Outside' AND house.houseName= '$houseName'";
-            mysqli_query($con, $queryOutside);
+            $queryRoomOutside = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Outside','Outside')";
+	    mysqli_query($con, $queryRoomOutside );
+            $queryRoomToHouseOutside  = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house,room WHERE house.houseName='$houseName'AND 
+            room.roomName='$houseName Outside'";
+	    mysqli_query($con, $queryRoomToHouseOutside );
+            $queryRoomToChoresOutside  = "INSERT INTO roomchoreAssignment(choreID,roomID) SELECT chores.choreID AS choreID,room.roomID AS roomID FROM chores,room WHERE chores.choreRoom='Outside'AND 
+            room.roomName='$houseName Outside'";
+            mysqli_query($con, $queryRoomToChoresOutside );
+           $queryChoreToRoomOutside  = "INSERT INTO chorehouseassignment(houseID,choreID) SELECT house.houseID AS houseID, roomchoreAssignment.choreID AS choreID FROM house,roomchoreAssignment,room 
+           WHERE house.houseName='$houseName'AND room.roomID=roomchoreAssignment.roomID AND room.roomName='$houseName Outside'";
+           mysqli_query($con, $queryChoreToRoomOutside );
         }
 
         if (isset($_REQUEST['Dog']) && $_REQUEST['Dog'] == 'Dog') {
             $Dog = mysqli_real_escape_string($db, $_REQUEST["Dog"]);
-            $queryDog = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreType='Dog' AND house.houseName= '$houseName'";
-            mysqli_query($con, $queryDog);
+            $queryRoomDog = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Dog','Dog')";
+            mysqli_query($con, $queryRoomDog);
+	    $queryRoomToHouseDog = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house,room WHERE house.houseName='$houseName'
+	    AND room.roomName='$houseName Dog'";
+            mysqli_query($con, $queryRoomToHouseDog);
+            $queryRoomToChoresDog = "INSERT INTO roomchoreAssignment(choreID,roomID) SELECT chores.choreID AS choreID,room.roomID AS roomID FROM chores,room WHERE chores.choreRoom='Dog'
+            AND room.roomName='$houseName Dog'";
+            mysqli_query($con, $queryRoomToChoresDog);
+            $queryChoreToRoomDog = "INSERT INTO chorehouseassignment(houseID,choreID) SELECT house.houseID AS houseID, roomchoreAssignment.choreID AS choreID FROM house,roomchoreAssignment,room 
+            WHERE house.houseName='$houseName'AND room.roomID=roomchoreAssignment.roomID AND room.roomName='$houseName Dog'";
+            mysqli_query($con, $queryChoreToRoomDog);
         }
 
         if (isset($_REQUEST['Cat']) && $_REQUEST['Cat'] == 'Cat') {
-            $Cat = mysqli_real_escape_string($db, $_REQUEST["Cat"]);
-            $queryCat = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreType='Cat' AND house.houseName= '$houseName'";
-            mysqli_query($con, $queryCat);
+            $Cat = mysqli_real_escape_string($db, $_REQUEST["Cat"]);        
+            $queryRoomCat = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Cat','Cat')";
+	    mysqli_query($con, $queryRoomCat);
+            $queryRoomToHouseCat = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house,room WHERE house.houseName='$houseName'
+            AND room.roomName='$houseName Cat'";
+	    mysqli_query($con, $queryRoomToHouseCat);
+	    $queryRoomToChoresCat = "INSERT INTO roomchoreAssignment(choreID,roomID) SELECT chores.choreID AS choreID,room.roomID AS roomID FROM chores,room WHERE chores.choreRoom='Cat'
+	    AND room.roomName='$houseName Cat'";
+	    mysqli_query($con, $queryRoomToChoresCat);
+	    $queryChoreToRoomCat = "INSERT INTO chorehouseassignment(houseID,choreID) SELECT house.houseID AS houseID, roomchoreAssignment.choreID AS choreID FROM house,roomchoreAssignment,room 
+	    WHERE house.houseName='$houseName'AND room.roomID=roomchoreAssignment.roomID AND room.roomName='$houseName Cat'";
+            mysqli_query($con, $queryChoreToRoomCat);
         }
         if (isset($_REQUEST['Rabbit']) && $_REQUEST['Rabbit'] == 'Rabbit') {
-            $Rabbit = mysqli_real_escape_string($db, $_REQUEST["Rabbit"]);
-            $queryRabbit = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreType='Rabbit' AND house.houseName= '$houseName'";
-            mysqli_query($con, $queryRabbit);
+            $Rabbit = mysqli_real_escape_string($db, $_REQUEST["Rabbit"]);                      
+            $queryRoomRabbit = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Rabbit','Rabbit')";
+	    mysqli_query($con, $queryRoomRabbit);
+	    $queryRoomToHouseRabbit = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house,room WHERE house.houseName='$houseName'
+	    AND room.roomName='$houseName Rabbit'";
+	    mysqli_query($con, $queryRoomToHouseRabbit);
+  	    $queryRoomToChoresRabbit = "INSERT INTO roomchoreAssignment(choreID,roomID) SELECT chores.choreID AS choreID,room.roomID AS roomID FROM chores,room WHERE chores.choreRoom='$Rabbit'
+  	    AND room.roomName='$houseName Rabbit'";
+	    mysqli_query($con, $queryRoomToChoresRabbit);
+	    $queryChoreToRoomRabbit = "INSERT INTO chorehouseassignment(houseID,choreID) SELECT house.houseID AS houseID, roomchoreAssignment.choreID AS choreID FROM house,roomchoreAssignment,room 
+	    WHERE house.houseName='$houseName'AND room.roomID=roomchoreAssignment.roomID AND room.roomName='$houseName Rabbit'";
+            mysqli_query($con, $queryChoreToRoomRabbit);
         }
         if (isset($_REQUEST['Fish']) && $_REQUEST['Fish'] == 'Fish') {
-            $Fish = mysqli_real_escape_string($db, $_REQUEST["Fish"]);
-            $queryFish = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreType='Fish' AND house.houseName= '$houseName'";
-            mysqli_query($con, $queryFish);
+            $Fish = mysqli_real_escape_string($db, $_REQUEST["Fish"]);                   
+            $queryRoomFish = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Fish','Fish')";
+	    mysqli_query($con, $queryRoomFish);
+	    $queryRoomToHouseFish = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house,room WHERE house.houseName='$houseName'
+	    AND room.roomName='$houseName Fish'";
+	    mysqli_query($con, $queryRoomToHouseFish);
+	    $queryRoomToChoresFish = "INSERT INTO roomchoreAssignment(choreID,roomID) SELECT chores.choreID AS choreID,room.roomID AS roomID FROM chores,room WHERE chores.choreRoom='Fish'
+	    AND room.roomName='$houseName Fish'";
+	    mysqli_query($con, $queryRoomToChoresFish);
+	    $queryChoreToRoomFish = "INSERT INTO chorehouseassignment(houseID,choreID) SELECT house.houseID AS houseID, roomchoreAssignment.choreID AS choreID FROM house,roomchoreAssignment,room 
+	    WHERE house.houseName='$houseName'AND room.roomID=roomchoreAssignment.roomID AND room.roomName='$houseName Fish'";
+	    mysqli_query($con, $queryChoreToRoomFish);
         }
 
         if (mysqli_errno($con) != 0) {
@@ -72,7 +128,7 @@ session_start();
         }
 
         mysqli_close();
-        header('Location: http://localhost:8888/HelpMeThrive/questionnaireComplete.php');
+        header('Location: questionnaireComplete.php');
         ?> 
     </body>
 </html>

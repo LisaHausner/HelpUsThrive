@@ -1,8 +1,11 @@
+<?php 
+session_start(); 
+?>
 <!DOCTYPE html>
 <html>
 <head>
   <title>Register New House and User</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
 
@@ -10,7 +13,7 @@
   	<h2>Register</h2>
     </div>
 	
-    <form method="post" action="scripts/insertUser.php">
+    <form method="post" action="insertUser.php">
   	
   	<div class="input-group">
   	  <label>House Name (Example: Humorous Hausners)</label>
@@ -31,9 +34,7 @@
   	<div class="input-group">
   	  <button type="submit" class ="btn" name="reg_user">Register</button>
   	</div>
-  	<p>
-            Already a member? <button class="btn btn1" name="/HelpMeThrive/login.php">Sign in</button>
-  	</p>
+  	Already a member? <a class="btn btn1" style="text-decoration:none" href="login.php">Sign in</a>
   </form>
 </body>
 </html>

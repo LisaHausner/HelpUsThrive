@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -15,7 +25,7 @@ error_reporting(E_ALL);
         ini_set('display_errors', 1);
 include("dbinfo.inc.php");
 
-$con = mysqli_connect("localhost", $username, $password, $database)
+$con = mysqli_connect($host, $username, $password, $database)
         or die("Unable to select database");
 
 $memberFirstName = mysqli_real_escape_string($con, $_REQUEST['memberFirstName']);
@@ -24,16 +34,16 @@ $memberType = mysqli_real_escape_string($con, $_REQUEST['memberType']);
 $memberBirthdate = mysqli_real_escape_string($con, $_REQUEST['memberBirthdate']);
 $houseName = $_SESSION["houseName"];
 //inserting member to house
-$query = "INSERT INTO members(memberHouseName, memberFirstName, memberLastName, memberType, memberBirthdate) VALUES ('$houseName','$memberFirstName','$memberLastName','$memberType','$memberBirthdate')";
+$query = "INSERT INTO members (memberHouseName, memberFirstName, memberLastName, memberType, memberBirthdate) VALUES ('$houseName','$memberFirstName','$memberLastName','$memberType','$memberBirthdate')";
 mysqli_query($con, $query);
-$queryMemberHouseAssignment = "INSERT INTO memberhouseassignment(houseID, memberID) SELECT  house.houseID as houseID, members.memberID AS memberID FROM members, house WHERE house.houseName = '$houseName' AND members.memberFirstName='$memberFirstName'";
+$queryMemberHouseAssignment = "INSERT INTO memberhouseassignment(houseID, memberID) SELECT house.houseID AShouseID,members.memberID ASmemberID FROM house,members WHERE house.houseName='$houseName'AND members.memberHouseName='$houseName'AND members.memberFirstName='$memberFirstName'AND members.memberLastName='$memberLastName'AND members.memberBirthdate='$memberBirthdate'";
 //inserting personal chores to member
 mysqli_query($con, $queryMemberHouseAssignment);
-$queryChoresToMembers = "INSERT INTO choreassignment (choreID, memberID) SELECT chores.choreID AS choreID, members.memberID AS memberID  FROM chores, members WHERE chores.choreType='Personal' AND TIMESTAMPDIFF(YEAR,members.memberBirthdate,CURDATE())>= chores.choreMinAge";
+$queryChoresToMembers = "INSERT INTO choreassignment(choreID,memberID) SELECT chores.choreID ASchoreID,members.memberID AS memberID  FROM chores,members WHERE chores.choreType='Personal'AND members.memberFirstName='$memberFirstName'AND members.memberHouseName='$houseName'AND chores.choreMinAge<=TIMESTAMPDIFF(YEAR,members.memberBirthdate,CURDATE())";
 mysqli_query($con, $queryChoresToMembers);
-$queryRoom = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$memberFirstName Personal','Personal')";
+$queryRoom = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$memberFirstName $memberBirthdate Personal','Personal')";
 mysqli_query($con, $queryRoom);
-$queryRoomToHouse = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house, room WHERE house.houseName = '$houseName' AND room.roomName = '$memberFirstName Personal";
+$queryRoomToHouse = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house, room WHERE house.houseName='$houseName'AND room.roomName='$memberFirstName Personal'";
 mysqli_query($con, $queryRoomToHouse);
 
 if (mysqli_errno($con) != 0) {
@@ -48,7 +58,7 @@ if (mysqli_errno($con) != 0) {
 }
 
 mysqli_close();
-header('Location: http://localhost:8888/HelpMeThrive/addFamily.php');
+header('Location: addFamily.php');
 ?> 
     </body>
 </html>

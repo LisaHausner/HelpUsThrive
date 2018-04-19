@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,12 +24,13 @@ session_start();
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
         include("dbinfo.inc.php");
-        $con = mysqli_connect("localhost", $username, $password, $database)
+        $con = mysqli_connect($host, $username, $password, $database)
                 or die("Unable to select database");
-
   $houseName = $_SESSION["houseName"];
+  
   $houseSize = mysqli_real_escape_string($con, $_REQUEST['houseSize']);
-      $query = "INSERT INTO house VALUES ('','$houseName','$houseSize')";
+  
+      $query = "INSERT INTO house(houseSize) VALUES ('$houseSize') WHERE houseName='$houseName'";
        echo $query;
        mysqli_query($con, $query);
         if (mysqli_errno($con) != 0) {
@@ -32,7 +43,7 @@ session_start();
         }
 
         mysqli_close();
-        header('Location: http://localhost:8888/HelpMeThrive/addFamily.php');
+        header('Location: addFamily.php');
         ?>
     </body>
 </html>

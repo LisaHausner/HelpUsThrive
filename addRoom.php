@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -7,47 +17,49 @@ session_start();
         <title>Questionnaire: Add Rooms</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/newcss.css">
+        <link rel="stylesheet" href="../css/newcss.css">
     </head>
     <body>
+    	 <div class="logout">
+    	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
+    	<a class ="logoutbutton" href="index.php?logout='1'">Logout</a></div>
         <fieldset>
         <h1>Help Me Thrive! Questionnaire</h1>  
         <h2>Selecting Rooms</h2>
         <p>Please answer the following questions about what rooms are in your house and submit the form to review your chore assignment list.</p>
-        <form action="scripts/insertRoom.php" method="post">                                        
+        <div class="grid-container">
+        <div class="item2">
+        <form action="insertRoom.php" method="post">                                        
             <fieldset>
-               
                 <label>Room Name:</label> <input type="text" name="roomName"><br>
                 <label>Room Type:</label>  <select name="roomType">
                     <option value="">Select...</option>
-                    <option value="Bedroom">Bedroom</option>
-                    <option value="Kitchen">Kitchen</option>
-                    <option value="Dining Room">Dining Room</option>
-                    <option value="Breakfast Nook">Breakfast Nook</option>
-                    <option value="Living Room">Living Room</option>
                     <option value="Bathroom">Bath Room</option>
-                    <option value="Sitting Room">Sitting Room</option>
+                    <option value="Bedroom">Bedroom</option>
+                    <option value="Breakfast Nook">Breakfast Nook</option>
+                    <option value="Dining Room">Dining Room</option>
                     <option value="Game Room">Game Room</option>
-                    <option value="Storage">Storage</option>
                     <option value="Garage">Garage</option>
+                    <option value="Kitchen">Kitchen</option>
+                    <option value="Living Room">Living Room</option>
+                    <option value="Sitting Room">Sitting Room</option>
+                    <option value="Storage">Storage</option>
                     <option value="Other">Other</option>
                     </select><br>
             <input class ="button button1" type="Submit" value ="Add Room">
             </fieldset>
-        </form>
-        </fieldset>
-        <a class ="button button2" href="addFamily.php">Previous Section</a> 
-        <a class ="button button2" href="addExtraChores.html">Next Section</a>
-        <fieldset>
+            </form>
+            </div>
+            <div class="item3">
+            <fieldset>
     <?php
         error_reporting(E_ALL);
         ini_set('display_errors', 1);
-        include("scripts/dbinfo.inc.php");
+        include("dbinfo.inc.php");
         $con = mysqli_connect("localhost", $username, $password, $database)
                 or die("Unable to select database");
         $houseName = $_SESSION["houseName"];
-        $query = "SELECT * FROM houserooms WHERE houseName = '$houseName'AND roomName != 'Family House Chores'";
-        //$query = "SELECT * FROM housemembers";
+        $query = "SELECT * FROM houseRooms WHERE houseName = '$houseName'AND roomName != '$houseName Chores' AND roomName!='Personal'";
         $result = mysqli_query($con, $query);
 
 //$num = mysqli_num_rows($result);
@@ -71,6 +83,10 @@ session_start();
             </tr>
             <?php endwhile ?>
         </table>  
-       </fieldset>
-    </body>
+        </fieldset>
+        </div>
+        </div>
+        <a class ="button button2" href="addFamily.php">Previous Section</a> 
+        <a class ="button button2" href="addExtraChores.php">Next Section</a>
+     </body>
 </html>

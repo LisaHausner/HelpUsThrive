@@ -30,66 +30,63 @@
         include("dbinfo.inc.php");
         $con = mysqli_connect($host, $username, $password, $database)
                 or die("Unable to select database");
-        $houseName = $_SESSION["houseName"];
-        //adding family chores
-        $queryRoom = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$houseName Chores','Family')";
-        mysqli_query($con, $queryRoom);        
-        $queryRoomToHouse = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house, room 
-        WHERE house.houseName = '$houseName' AND room.roomName = '$houseName Chores'";
-        mysqli_query($con, $queryRoomToHouse);        
-        $queryFamilyChores = "INSERT INTO chorehouseassignment(houseID, choreID) SELECT house.houseID, chores.choreID FROM house, chores WHERE chores.choreType='Family'
-        AND house.houseName= '$houseName'";
-        mysqli_query($con, $queryFamilyChores);
-        //end adding family chores
-        header('Location: chorelist.php');
-        mysqli_close($con);
-?>
-        
+        $houseName = $_SESSION["houseName"];              
         $query = "SELECT * FROM houseMembers WHERE houseMembers.houseName='$houseName'";
         $result = mysqli_query($con, $query);
-        $query2 = "SELECT * FROM houseChore2 WHERE houseChore2.houseName='$houseName'AND houseChore2.choreType != 'Personal'";
+        $query2 = "SELECT * FROM houseChore2 WHERE houseChore2.houseName='$houseName'AND houseChore2.choreType != 'Personal'ORDER BY houseChore2.choreFrequency";
         $result2 = mysqli_query($con, $query2);        
-        $queryPersonal = "SELECT * FROM personalMemberChores WHERE personalMemberChores.memberHouseName='$houseName'";
+        $queryPersonal = "SELECT * FROM personalMemberChores WHERE 1 AND personalMemberChores.memberHouseName='$houseName'ORDER BY personalMemberChores.memberFirstName ASC";
         $result3 = mysqli_query($con, $queryPersonal);
         
 //$num = mysqli_num_rows($result);
 //echo $num;
-
+mysqli_close($con);
+?>
+	<h1>Welcome to the Completed Chore List</h1>
+	<div class="grid-container">
+  <div class="item2">
+	<fieldset>
             <h3><center>Family Chore List<center></h3>
        
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
+                <th>Chore Frequency</th>
                 <th>Chore Room Name</th>
                 <th>Chore Name</th>
-                <th>Chore Frequency</th>                                
+                                                
             </tr>
             <?php while ($row = mysqli_fetch_array($result2)): ?>
             <tr> 
+                    <td><?php echo $row['choreFrequency']; ?></td>
                     <td><?php echo $row['roomName']; ?></td>
                     <td><?php echo $row['choreName']; ?></td>
-                    <td><?php echo $row['choreFrequency']; ?></td>                       
+                                           
  	</tr>                     
  	<?php endwhile ?>
          </table>
-      </fieldset>
-        <fieldset>
+         </fieldset>
+         </div>
+            <div class="item3">
+            <fieldset>
             <!--Personal -->
-            <h3>Personal Chore Assignment List</h3>
+            <h3>Personal Chore List</h3>
         
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
+                <th>Chore Frequency</th>
                 <th>Member Name</th>
                 <th>Chore Name</th>
-                <th>Chore Frequency</th>
             </tr>
             <?php while ($row = mysqli_fetch_array($result3)): ?>
             <tr> 
+		    <td><?php echo $row['choreFrequency']; ?></td>
                     <td><?php echo $row['memberFirstName']; ?> (<?php echo $row['memberBirthdate'];?>)</td>
-                    <td><?php echo $row['choreName']; ?></td>
-                    <td><?php echo $row['choreFrequency']; ?></td>                                       
+                    <td><?php echo $row['choreName']; ?></td>                                    
             </tr>
             <?php endwhile ?>            
          </table>
-        </fieldset>         
+        </fieldset>     
+         </div>
+      </fieldset>      
     </body>
 </html>

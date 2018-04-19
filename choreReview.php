@@ -1,5 +1,15 @@
-<?php
-session_start();
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['houseName'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: /HelpMeThrive/login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['houseName']);
+  	header("location: /HelpMeThrive/login.php");
+  }
 ?>
 <!DOCTYPE html>
 <html>
@@ -10,6 +20,9 @@ session_start();
         <link rel="stylesheet" href="../css/newcss.css">
     </head>
     <body>
+    	<div class="logout">
+    	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
+    	<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>
         
         <?php
         error_reporting(E_ALL);
@@ -18,9 +31,9 @@ session_start();
         $con = mysqli_connect("localhost", $username, $password, $database)
                 or die("Unable to select database");
         $houseName = $_SESSION["houseName"];
-        $members= "SELECT memberFirstName FROM members";
+        $members= "SELECT * FROM members WHERE members.memberHouseName='$houseName'";
         $result2= mysqli_query($con, $members);
-        $query = "SELECT chorehouseassignment.houseID AS houseID, house.houseName AS houseName, chorehouseassignment.choreID AS choreID, chores.choreName AS choreName, chores.choreFrequency AS choreFrequency, chores.choreRoom AS choreRoom, roomhouseassignment.roomID AS roomID, room.roomName AS roomName, room.roomType AS roomType, chores.choreRewardPoints AS choreRewardPoints, members.memberID AS memberID  FROM chores, room, chorehouseassignment, roomhouseassignment, members, memberhouseassignment, house WHERE chorehouseassignment.choreID=chores.choreID AND roomhouseassignment.roomID=room.roomID AND members.memberID=memberhouseAssignment.memberID AND memberhouseAssignment.houseID=roomhouseassignment.houseID=chorehouseassignment.houseID";
+        $query = "SELECT * FROM houseChore2 WHERE houseChoresREAL.houseName='$houseName'";
         $result = mysqli_query($con, $query);
 
 //$num = mysqli_num_rows($result);
@@ -32,13 +45,11 @@ session_start();
         ?>
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
+                <th>Chore Room Name: Room Type</th>
                 <th>Chore Description</th>
                 <th>Chore Frequency</th>
-                <th>Chore Room Name: Room Type</th>
-                
                 <th>Chore Reward Points</th>
                 <th>Choose Member to Assign Chore to.</th>
-            <input type="radio" name="delete" value="" />
             </tr>
 
             <?php
@@ -49,7 +60,6 @@ session_start();
                 $roomName = $row['roomName'];
                 $roomType = $row['roomType'];
                 $choreRewardPoints = $row['choreRewardPoints'];
-                foreach ($members as $memberFirstName) {
                 $memberFirstName = $col['$memberFirstName'];}
                 
                 
@@ -60,7 +70,7 @@ session_start();
                     <td><?php echo "$choreFrequency"; ?></td>
                     <td><?php echo "$roomName $roomType"; ?></td>
                     <td><?php echo "$choreRewardPoints"; ?></td>
-                    <td><input type ="radio" name="$memberFirstName"/> <?php echo "$memberFirstName"; ?></td>
+                    <td><input class="containerRadio" type ="radio" name="$memberFirstName"/> <?php echo "$memberFirstName"; ?></td>
                 </tr>
 
     <?php
@@ -75,24 +85,24 @@ echo "</table>";
         $con = mysqli_connect("localhost", $username, $password, $database)
                 or die("Unable to select database");
 
-        $query = "SELECT members.memberFirstName AS memberFirstName, chores.choreName AS choreName, chores.choreFrequency AS choreFrequency, chores.choreRewardPoints AS choreRewardPoints, chores.choreType AS choreType, room.roomName AS roomName, memberhouseassignment.houseID AS houseID, memberhouseassignment.memberID AS memberID, choreassignment.choreID AS choreID, choreassignment.memberID  FROM members, choreassigment, memberhouseassignment, chores, room, WHERE choreassignment.choreID=chores.choreID GROUP BY members.memberFirstName";
+        $query = "SELECT * FROM personalMemberChores";
         $result = mysqli_query($con, $query);
 
 //$num = mysqli_num_rows($result);
 //echo $num;
         mysqli_close($con);
 
-        echo "<b><center>Current Chores by Family Member</center></b><br><br>";
+        echo "<b><center>Personal Chores by Family Member</center></b><br><br>";
         ?>
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
                  
-                <th>Member First Name</th>
+                <th>Member Name (Birthdate)</th>
                 <th>Chore Name</th>
-                <th>Chore Room name</th>
+                <th>Chore Room Name</th>
                 <th>Chore Frequency</th>
                 <th>Chore Reward Points</th>
-                <th>Chore Type</th>
+
                 
                
             </tr>
@@ -101,22 +111,23 @@ echo "</table>";
             while ($row = mysqli_fetch_array($result)) {
 
                 $memberFirstName = $row['memberFirstName'];
+                $memberLastName = $row['memberLastName'];
+		$memberBirthdate = $row['memberBirthdate'];
                 $choreName = $row['choreName'];
-                $choreRoomName = $row['choreRoomName'];
                 $choreFrequency = $row['choreFrequency'];
                 $choreRewardPoints = $row['choreRewardPoints'];
-                $choreType = $row['choreType'];
+
                 
                 ?>
 
                 <tr> 
-                    <td><?php echo "$memberFirstName"; ?></td>
+                    <td><?php echo "$memberFirstName"; ?> <?php echo "$memberLastName";?> (<?php echo "$memberBirthdate";?>)</td>
                     <td><?php echo "$choreName"; ?></td>
                     <td><?php echo "$choreRoomName"; ?></td>
                     <td><?php echo "$choreFrequency"; ?></td>
                     <td><?php echo "$choreRewardPoints"; ?></td>
                     <td><?php echo "$choreType"; ?></td>
-                    <td><input type="radio" name="delete">Click to delete chore from <?php echo "$memberFirstName"; ?>'s chores.</td>
+                    <td><input class="containerRadio" type="radio" name="delete">Click to delete chore from <?php echo "$memberFirstName"; ?>'s chores.</td>
                    
                 </tr>
 

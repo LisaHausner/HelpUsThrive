@@ -1,5 +1,5 @@
 <?php 
-  session_start(); 
+session_start(); 
 
   if (!isset($_SESSION['houseName'])) {
   	$_SESSION['msg'] = "You must log in first";
@@ -11,6 +11,3 @@
   	header("location: login.php");
   }
 ?>
-
-<P>need to setup reward visual</P>
-
