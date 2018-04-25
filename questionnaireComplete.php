@@ -102,7 +102,7 @@
         $con = mysqli_connect("localhost", $username, $password, $database)
                 or die("Unable to select database");
         //$houseName = $_SESSION["houseName"];
-        $query = "SELECT * FROM houseRooms WHERE houseName = '$houseName'AND roomName != '$houseName Chores'";
+        $query = "SELECT * FROM houseRooms WHERE houseName = '$houseName'AND roomName != '$houseName Chores' AND roomType != 'Personal'";
         //$query = "SELECT * FROM housemembers";
         $result = mysqli_query($con, $query);
 

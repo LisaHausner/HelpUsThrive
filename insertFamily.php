@@ -33,6 +33,7 @@ $memberLastName = mysqli_real_escape_string($con, $_REQUEST['memberLastName']);
 $memberType = mysqli_real_escape_string($con, $_REQUEST['memberType']);
 $memberBirthdate = mysqli_real_escape_string($con, $_REQUEST['memberBirthdate']);
 $houseName = $_SESSION["houseName"];
+
 //inserting member to house
 $query = "INSERT INTO members (memberHouseName, memberFirstName, memberLastName, memberType, memberBirthdate) VALUES ('$houseName','$memberFirstName','$memberLastName','$memberType','$memberBirthdate')";
 mysqli_query($con, $query);
@@ -43,7 +44,7 @@ $queryChoresToMembers = "INSERT INTO choreassignment(choreID,memberID) SELECT ch
 mysqli_query($con, $queryChoresToMembers);
 $queryRoom = "INSERT INTO room (roomHouseName, roomName, roomType) VALUES ('$houseName','$memberFirstName $memberBirthdate Personal','Personal')";
 mysqli_query($con, $queryRoom);
-$queryRoomToHouse = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house, room WHERE house.houseName='$houseName'AND room.roomName='$memberFirstName Personal'";
+$queryRoomToHouse = "INSERT INTO roomhouseassignment(houseID, roomID) SELECT house.houseID AS houseID, room.roomID AS roomID FROM house, room WHERE house.houseName='$houseName'AND room.roomName='$memberFirstName $memberBirthdate Personal'";
 mysqli_query($con, $queryRoomToHouse);
 
 if (mysqli_errno($con) != 0) {

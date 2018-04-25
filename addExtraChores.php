@@ -23,8 +23,9 @@
 <div class="logout">
     <h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
     	<a class ="logoutbutton" href="index.php?logout='1'">Logout</a></div>
-        <fieldset>
-            <h1>Help Me Thrive! Questionnaire </h1>
+
+       <fieldset>
+            <h1>Help Us Thrive! Questionnaire </h1>
             <h2>Selecting Additional Chores </h2>  
         <p>This is the final set of questions. Please answer the following questions about what additional chores you would like to add to your list then submit the form to review your chore assignment list.</p>
         <fieldset>
@@ -37,9 +38,8 @@
                     <label class="container">Cat<input type="checkbox" name="Cat" value="Cat"><span class="checkmark"></span></label>
                     <label class="container">Fish<input type="checkbox" name="Fish" value="Fish"><span class="checkmark"></span></label>
                     <label class="container">Rabbit<input type="checkbox" name="Rabbit" value="Rabbit"><span class="checkmark"></span></label>
-                    <input class="button" type="Submit">                
+                    <input class="button" type="Submit" value= "Submit">                
         </form>
-        </fieldset>
         </fieldset>
         <fieldset>
             <form action="questionnaireComplete.php" method="post">
@@ -49,9 +49,7 @@
         </fieldset>
         <a class ="button button2" href ="addFamily.php">Add Family Member</a>
         <a class ="button button2" href="addRoom.php">Add a Room</a>
-        
-        
-        
-        
-    </body>
+        </fieldset>
+              
+        </body>
 </html>

@@ -356,6 +356,35 @@ input[type=submit]:hover {
     clear: both;
 }
 
+.fish1 {
+    position: absolute;
+    Top: 250px;
+    height: 60px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    .button2{
+    background-color: rgba(255, 0, 0, 0.6);
+    font-size:  16px;
+    height: 32px;
+    text-align: center;
+    width: 250px;
+   }
+   .button {
+    background-color:forestgreen;
+    border-style: double;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 150px;
+    border-radius: 12px;
+}
+}
+
 /* to be used at top of every page */
 .logout {
     background-color: rgba(106, 90, 205);

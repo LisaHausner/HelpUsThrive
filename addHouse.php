@@ -23,6 +23,8 @@
     	<div class="logout">
     	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
     	<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>
+        <div class="fish">
+    	<img src="../images/fish.png" height="50" style="border-radius:12px"></div>
         <fieldset>                
             <h1>Help Me Thrive! Questionnaire</h1>  
             <h2>Add Your House</h2>

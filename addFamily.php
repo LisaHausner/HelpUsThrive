@@ -23,8 +23,9 @@
         <fieldset>  
 	<div class="logout">
     		<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
-    		<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>
-            <h1>Help Me Thrive! Questionnaire</h1>
+    		<a class ="logoutbutton" href="index.php?logout='1'">Logout</a></div>
+        
+                   <h1>Help Us Thrive! Questionnaire</h1>
               <h2>Adding Family Members </h2>
         <p>Please add each family member, then click "Next Section".  </p>
         <div class="grid-container">
@@ -35,8 +36,8 @@
                 <label>Last Name:</label> <input type="text" name="memberLastName"><br>
                 <label>Member Type:</label>  <select name="memberType">
                     <option value="">Select...</option>
-                    <option value="Crown1"> Head of House 1</option>
-                    <option value="Crown2">Head of House 2</option>
+                    <option value="Head of Household 1"> Head of House 1</option>
+                    <option value="Head of Household 2">Head of House 2</option>
                     <option value="Child">Child</option>
                     <option value="Other">Other</option>
                     </select><br>
@@ -61,7 +62,7 @@
 //echo $num;
         mysqli_close($con);
 
-        echo "<b><center>House Members</center></b><br><br>";
+        echo "<b><center>House Members</center></b><br>";
         ?>
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
@@ -82,10 +83,8 @@
         </table>
             </fieldset>
       </div>
-      </div>
-              </fieldset>
-              
+      </div>     
         <a class ="button button2" href="addRoom.php">Next Section</a>
-        
+      </fieldset>  
     </body>
 </html>

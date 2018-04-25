@@ -23,9 +23,10 @@
     	 <div class="logout">
     	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
     	<a class ="logoutbutton" href="index.php?logout='1'">Logout</a></div>
-        <fieldset>
-        <h1>Help Me Thrive! Questionnaire</h1>  
-        <h2>Selecting Rooms</h2>
+        
+       <fieldset>
+        <h1>Help Us Thrive! Questionnaire</h1>  
+        <h2>Adding Rooms</h2>
         <p>Please answer the following questions about what rooms are in your house and submit the form to review your chore assignment list.</p>
         <div class="grid-container">
         <div class="item2">
@@ -59,14 +60,14 @@
         $con = mysqli_connect("localhost", $username, $password, $database)
                 or die("Unable to select database");
         $houseName = $_SESSION["houseName"];
-        $query = "SELECT * FROM houseRooms WHERE houseName = '$houseName'AND roomName != '$houseName Chores' AND roomName!='Personal'";
+        $query = "SELECT * FROM houseRooms WHERE houseName = '$houseName'AND roomName != '$houseName Chores' AND roomType != 'Personal'";
         $result = mysqli_query($con, $query);
 
 //$num = mysqli_num_rows($result);
 //echo $num;
         mysqli_close($con);
 
-        echo "<b><center>House Rooms</center></b><br><br>";
+        echo "<b><center>House Rooms</center></b><br>";
         ?>
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 

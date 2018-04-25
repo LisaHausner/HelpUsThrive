@@ -22,7 +22,8 @@
     <body>
     	<div class="logout">
     	<h4><strong>Thriving <?php echo $_SESSION['houseName']; ?></strong></h4><br>
-    	<a class ="logoutbutton" href="index.php?logout='1'">logout</a></div>        
+    	<a class ="logoutbutton" href="index.php?logout='1'">Logout</a></div>
+     
         <fieldset>
  <?php
         error_reporting(E_ALL);
@@ -33,9 +34,9 @@
         $houseName = $_SESSION["houseName"];              
         $query = "SELECT * FROM houseMembers WHERE houseMembers.houseName='$houseName'";
         $result = mysqli_query($con, $query);
-        $query2 = "SELECT * FROM houseChore2 WHERE houseChore2.houseName='$houseName'AND houseChore2.choreType != 'Personal'ORDER BY houseChore2.choreFrequency";
+        $query2 = "SELECT * FROM houseChore3 WHERE 1 AND houseChore3.houseName='$houseName'AND houseChore3.choreType != 'Personal'ORDER BY houseChore3.choreFrequency";
         $result2 = mysqli_query($con, $query2);        
-        $queryPersonal = "SELECT * FROM personalMemberChores WHERE 1 AND personalMemberChores.memberHouseName='$houseName'ORDER BY personalMemberChores.memberFirstName ASC";
+        $queryPersonal = "SELECT * FROM personalMemberChores WHERE 1 AND personalMemberChores.memberHouseName='$houseName' ORDER BY personalMemberChores.memberFirstName ASC";
         $result3 = mysqli_query($con, $queryPersonal);
         
 //$num = mysqli_num_rows($result);
@@ -43,6 +44,7 @@
 mysqli_close($con);
 ?>
 	<h1>Welcome to the Completed Chore List</h1>
+        <center><a class ="button button2" href ="addFamily.php">Add Family Member</a><a class ="button button2" href="addRoom.php">Add a Room</a><center>
 	<div class="grid-container">
   <div class="item2">
 	<fieldset>
@@ -69,24 +71,26 @@ mysqli_close($con);
             <div class="item3">
             <fieldset>
             <!--Personal -->
-            <h3>Personal Chore List</h3>
+            <h3><center>Personal Chore List<center></h3>
         
         <table border="0" cellspacing="2" cellpadding="2">
             <tr> 
-                <th>Chore Frequency</th>
                 <th>Member Name</th>
+                <th>Chore Frequency</th>
                 <th>Chore Name</th>
             </tr>
             <?php while ($row = mysqli_fetch_array($result3)): ?>
             <tr> 
-		    <td><?php echo $row['choreFrequency']; ?></td>
                     <td><?php echo $row['memberFirstName']; ?> (<?php echo $row['memberBirthdate'];?>)</td>
+		    <td><?php echo $row['choreFrequency']; ?></td>
                     <td><?php echo $row['choreName']; ?></td>                                    
             </tr>
             <?php endwhile ?>            
          </table>
         </fieldset>     
          </div>
-      </fieldset>      
+      </fieldset> 
+        <a class ="button button2" href ="addFamily.php">Add Family Member</a>
+        <a class ="button button2" href="addRoom.php">Add a Room</a>   
     </body>
 </html>
